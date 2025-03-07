@@ -24,14 +24,17 @@ body{
     justify-content: center;
 }
 section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--cor0);
     width: 300px;
     height: 250px;
     border-radius: 50px;
-    box-shadow: 10px 10px 6px rgba(0, 0, 0, 0.747);
+    box-shadow: 0px 0px 12px 17px rgba(0, 0, 0, 0.747)
 }
 div#conteudo{
-    padding: 25px;
+   
 }
 h1{
     font-family: var(--font-1);
@@ -40,6 +43,12 @@ p{
     font-family: var(--font-);
     padding: 5px 2px;
 }
+#check{
+    margin-right: 5px;
+}
 #entrar{
     background-color: var(--cor4);
+    color: white;
+    padding: 4px;
+    border-radius: 7px;
 }
