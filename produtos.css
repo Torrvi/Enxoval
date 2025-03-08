@@ -19,34 +19,20 @@ body{
     background-image: url(imagens/enxoval.jpeg);
     background-size: contain;
     height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor1));
+    min-height: 170px;
+    box-shadow: 0px 0px 16px 14px rgba(0, 0, 0, 0.747);
 }
 section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--cor0);
-    width: 300px;
-    height: 250px;
-    border-radius: 50px;
-    box-shadow: 0px 0px 12px 17px rgba(0, 0, 0, 0.747)
+    background-color: var(--cor4);
+    width: 70vw;
+    height: 80vh;
+    margin: auto;
+    box-shadow: 0px 20px 16px 7px rgba(0, 0, 0, 0.747);
 }
 h1{
-    font-family: var(--font-1);
-}
-p{
-    font-family: var(--font-);
-    padding: 5px 2px;
-}
-#entrar{
-    background-color: var(--cor4);
-    color: white;
-    padding: 4px;
-    margin-top: 7px;
-    border-radius: 7px;
-}
-#mensagem{
-    padding: 0px;
+    font-family: var(--font-3);
 }
